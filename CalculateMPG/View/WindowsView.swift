@@ -16,7 +16,6 @@ struct WindowsView: View {
     let startColor: Color = Color("startColor")
     let endColor: Color = Color("endColor")
     
-    // Define a FocusState variable to track the focus of the TextField
     @FocusState private var isInputFocused: Bool
 
     var body: some View {
